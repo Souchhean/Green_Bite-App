@@ -1,0 +1,21 @@
+.Img-container {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-around;
+  flex-flow: row nowrap;
+  margin: 2em 0; /* Adjusted margin */
+}
+
+.Img-container .Img-card {
+  display: flex;
+  flex-flow: column nowrap;
+
+  width: 20vw;
+  height: 28vw;
+  margin: 5px;
+  position: relative;
+  border-radius: 15px;
+  box-shadow: 0px -1px 48px -8px rgb(0, 0, 0);
+  cursor: pointer;
+  text-align: center;
+}
